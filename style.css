@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    color: #000000;
+
+
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.container {
+    padding: 10px 10%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.logo {
+    width: 180px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a {
+    color:#000000;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff5100;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.header-text{
+    margin-top: 10%;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.header-text h1{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.header-text h1 span {
+    color:#ff5100;
+    font-size: 40px;
+
+
+}
+
+#about {
+    padding: 80px;
+    margin: 20px;
+    text-align: center;
+}
+
+#about h1{
+    color: #ff5100;
+    margin-bottom: 30px;
+}
+#about p {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 2;
+}
+#education {
+    padding: 30px 0;
+    margin: 20px;
+    
+}
+#education h1 {
+    color:#ff5100;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#education h2{
+    margin-top: 100px 0;
+    margin-bottom: 20px;
+
+}
+#education h2 p {
+    font-weight: lighter;
+    font-size:large;
+    line-height: normal;
+
+}
+.education-list {
+    line-height: 2;
+    text-align: left;
+    font-size: large;
+    
+}
+
+#experience {
+    padding: 30px 0;
+    margin: 20px;
+    font-size: large;
+    
+}
+#experience h1 {
+    color:#ff5100;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+#experience h2 {
+    margin-top: 100px 0;
+    margin-bottom: 20px;
+}
+
+#experience h2 p{
+    font-size: large;
+    font-weight: lighter;
+    line-height: 2;
+}
+
+#experience ul {
+    line-height: 1.5;
+
+}
+#extracurricular {
+    padding: 30px 0;
+    margin: 20px;
+    font-size: large;
+}
+#extracurricular h1 {
+    color:#ff5100;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+#extracurricular h2 {
+    margin-top: 80px 0;
+    margin-bottom: 20px;
+    padding: 20px 0;
+
+
+}
+#extracurricular h2 p {
+    font-size: large;
+    font-weight: lighter;
+    line-height: 1.5;
+    
+}
+
+#extracurricular h3 {
+    margin: 20px 0;
+
+
+}
+#extracurricular h3 p{
+    font-size: large;
+    font-weight: lighter;
+    line-height: 2;
+}
+#extracurricular p {
+    font-size: large;
+    font-weight: lighter;
+    line-height: 1.5;
+
+}
+#extracurricular ul{
+    line-height: 1.5;
+    font-size: large;
+    font-weight: lighter;
+
+}
+
+#contact {
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+}
+#contact h1 {
+    color:#ff5100;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#contact p{
+    font-size: larger;
+    line-height: 1.5;
+
+
+}
+.social-icons i {
+    color:#ff5100;
+    font-size: 25px;
+    margin-right: 15px;
+    align-content: center;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+@media only screen and (max-width: 600px){
+
+}
